@@ -10,3 +10,10 @@ loc:
   tomcat:
     shutdown:
       wait-time: 30
+  wechat:
+    miniapp:
+      app-id: wxa454bc2ddc9e1bdf
+      secret: 732e9c1990c03a9719d40fad6307ccc8
+
+
+
