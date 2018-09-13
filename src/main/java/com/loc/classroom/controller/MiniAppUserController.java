@@ -29,6 +29,11 @@ public class MiniAppUserController {
   @Autowired
   private WxMaService wxService;
 
+  @GetMapping("/helloWorld")
+  public Problem helloWorld() {
+    return ProblemUtil.createProblem("hello world");
+  }
+
   /**
    * 登陆接口
    */

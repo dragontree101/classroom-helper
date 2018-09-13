@@ -9,7 +9,7 @@ spring:
 loc:
   tomcat:
     shutdown:
-      wait-time: 30
+      wait-time: 10
   wechat:
     miniapp:
       app-id: wxa454bc2ddc9e1bdf
